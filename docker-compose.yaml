@@ -34,7 +34,7 @@ services:
       PHOTOPRISM_DATABASE_NAME: "photoprism"         # MariaDB database schema name
       PHOTOPRISM_DATABASE_USER: "photoprism"         # MariaDB database user name
       PHOTOPRISM_DATABASE_PASSWORD: "MonstrebuU"       # MariaDB database user password
-      PHOTOPRISM_SITE_URL: "http://localhost:8200/"  # Public PhotoPrism URL
+      PHOTOPRISM_SITE_URL: "http://192.168.31.151:8200/"  # Public PhotoPrism URL
       PHOTOPRISM_SITE_TITLE: "PhotoPrism"
       PHOTOPRISM_SITE_CAPTION: "Browse Your Life"
       PHOTOPRISM_SITE_DESCRIPTION: ""
