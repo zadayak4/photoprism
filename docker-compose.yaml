@@ -15,7 +15,7 @@ services:
     ports:
       - 8200:2342 # [local port]:[container port]
     environment:
-      PHOTOPRISM_ADMIN_PASSWORD: "p4ssw0rd"          # PLEASE CHANGE: Your initial admin password (min 4 characters)
+      PHOTOPRISM_ADMIN_PASSWORD: "MonstrebuU"          # PLEASE CHANGE: Your initial admin password (min 4 characters)
       PHOTOPRISM_HTTP_PORT: 2342                     # Built-in Web server port
       PHOTOPRISM_HTTP_COMPRESSION: "gzip"            # Improves transfer speed and bandwidth utilization (none or gzip)
       PHOTOPRISM_DEBUG: "false"                      # Run in debug mode (shows additional log messages)
@@ -33,7 +33,7 @@ services:
       PHOTOPRISM_DATABASE_SERVER: "mariadb:3306"     # MariaDB database server (hostname:port)
       PHOTOPRISM_DATABASE_NAME: "photoprism"         # MariaDB database schema name
       PHOTOPRISM_DATABASE_USER: "photoprism"         # MariaDB database user name
-      PHOTOPRISM_DATABASE_PASSWORD: "p4ssw0rd"       # MariaDB database user password
+      PHOTOPRISM_DATABASE_PASSWORD: "MonstrebuU"       # MariaDB database user password
       PHOTOPRISM_SITE_URL: "http://localhost:8200/"  # Public PhotoPrism URL
       PHOTOPRISM_SITE_TITLE: "PhotoPrism"
       PHOTOPRISM_SITE_CAPTION: "Browse Your Life"
@@ -67,10 +67,10 @@ services:
     volumes: # Don't remove permanent storage for index database files!
       - "./database:/var/lib/mysql"
     environment:
-      MYSQL_ROOT_PASSWORD: p4ssw0rd
+      MYSQL_ROOT_PASSWORD: MonstrebU
       MYSQL_DATABASE: photoprism
       MYSQL_USER: photoprism
-      MYSQL_PASSWORD: p4ssw0rd
+      MYSQL_PASSWORD: MonstrebuU
 
 # Uncomment the following lines to upgrade automatically, whenever there is a new Docker image available:
 #
